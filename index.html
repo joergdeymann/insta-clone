@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Push Me</title>
+    <link rel="icon" href="./img/bubble.svg">
+
+
+    <script src="script.js"></script>
+    <script src="./js/data.js"></script>
+    <script src="./js/event_comment.js"></script>
+    <script src="./js/event_like.js"></script>
+    <script src="./js/event_pin.js"></script>
+    <script src="./js/event_search.js"></script>
+    <script src="./js/render_article.js"></script>
+    <script src="./js/render_comment.js"></script>
+    <script src="./js/render_quick.js"></script>
+    <script src="./js/render_nav.js"></script>
+    <script src="./js/render_login.js"></script>
+    <script src="./js/stdio.js"></script>
+    <script src="./js/render_userprofile.js"></script>
+    
+
+    <link rel="stylesheet" href="./css/std.css"></link>
+    <link rel="stylesheet" href="./style.css"></link>
+    <link rel="stylesheet" href="./css/login.css"></link>
+    <link rel="stylesheet" href="./css/header.css"></link>
+    <link rel="stylesheet" href="./css/section-left.css"></link>
+    <link rel="stylesheet" href="./css/section_right.css"></link>
+    <link rel="stylesheet" href="./css/footer.css"></link>
+    <link rel="stylesheet" href="./css/media.css"></link>
+     
+</head>
+
+<body  onload="init()"> 
+    <header>
+        <div class="header-content">
+            <div class="logoarea pacifico-regular">
+                Push Me
+            </div>
+            <div>
+                <input oninput="searchKeyDown();"  id="search-string" type="text" placeholder="&#128269; Suchen &#x1F50D;">
+            </div>
+            <nav id="nav">
+                Some Dynamic Links
+            </nav>
+        </div>
+    </header>
+
+    <div id="login-container" class="relative login-container hide">
+        <div id="login" class="absolute login-content">
+            Hier der Text der Uberlagert werden soll
+        </div>        
+    </div>
+
+    <section>
+        <div class="section-content">
+            <div class="section-left" id="article">
+                Left Content
+            </div>
+
+            <div id="section-right" class="section-right">
+
+                <div class="section-right-row">
+                    <div class="userarea">
+                        <img class="circle-image height64" src="./img/user/me.jpg">
+                        <div>
+                            <b>joergdeymann</b>
+                            <span class="advice">Jörg Deymann</span>
+                        </div>
+                    </div> 
+                    <a>Wechseln</a><br>
+                </div>
+
+                <div class="section-right-row">
+                    <div class="userarea">
+                        <span class="advice"><b>Vorschläge für Dich</b></span>
+                    </div> 
+                    <b>Alles ansehen</b>
+                </div>
+
+                <div class="section-right-row">
+                    <div class="userarea">
+                        <img class="circle-image height48" src="./img/user/me.jpg">
+                        <div>
+                            <b>joergdeymann</b>
+                            <span class="advice">Jörg Deymann</span>
+                        </div>
+                    </div> 
+                    <a>Wechseln</a>
+                </div>
+
+
+                <div class="section-right-row">
+                    <div class="userarea">
+                        <img class="circle-image height48" src="./img/user/me.jpg">
+                        <div>
+                            <b>joergdeymann</b>
+                            <span class="advice">Jörg Deymann</span>
+                        </div>
+                    </div> 
+                    <a>Wechseln</a>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+</body>
+
+<footer>
+    <div class="logoarea pacifico-regular flex-row gap16">
+        <a href="index.html"><img alt="Logo" class="circle-image height48" src="/img/user/molly.jpg"></a>
+        <p>Push Me</p>
+    </div>
+    <div class="impressum">
+        <a href="impressum.html">Impressum</a>
+        <a href="datenschutz.html">Datenschutz</a>
+    </div>
+</footer>
+
+</html>

@@ -1,0 +1,118 @@
+.section-left {
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+    border: 1px solid rgba(0,0,0,0.5);
+    flex:1;
+    margin: 32px 0;
+}
+
+article .article-top {
+    position: relative;
+    display: flex;
+    width: 100%;
+    background-color: rgb(9, 158, 108);
+}
+
+article .article-top-image {
+    right: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: lime;   
+}
+
+article .article-top-image-text {
+    position: absolute;
+    right: 0;
+    bottom:0;
+    width: 100%;
+    color: rgba(255,255,255,0.7);
+    background-color: rgba(0,0,0,0.1);
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: right;
+}
+
+article .article-top-image-text:hover {
+    background-color: rgba(0,0,0,0.5);
+}
+
+article nav {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;    
+    margin: 8px 16px;
+}
+
+
+article nav div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:32px;
+}
+
+article nav img {
+    display: flex;
+    height: 32px;
+    object-fit: cover;
+}
+
+article p {
+    margin: 8px 16px;
+}
+
+article .time {
+    color: rgba(0,0,0,0.5);
+    text-transform: uppercase;
+    font-size: 10px;
+
+}
+
+.advice {
+    color: rgba(0,0,0,0.4);
+    font-weight: 500;
+}
+
+article .at  {
+    color:rgba(75, 131, 235,0.8);
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+article  {
+    color: rgba(0,0,0,0.8);
+}
+
+hr {
+    padding:0px;
+    margin:0px;
+    height: 1px;
+    background-color: rgba(0,0,0,0.5);
+    border:0px;
+}
+
+.input-post {
+    border: none;
+    background-color: transparent;
+    outline:none;
+    width: 100%;
+}
+
+.input-post:focus {
+    outline:none;
+}
+
+article .more {
+    color: rgba(0,0,0,0.6);
+    cursor:pointer;
+}
+
+.obj-right {
+    object-position: right;
+}

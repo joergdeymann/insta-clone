@@ -1,0 +1,157 @@
+tml {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin:0
+    
+}
+
+body {
+    margin:0
+    
+}
+
+button,a {
+    cursor: pointer;
+}
+
+*:focus {
+    outline: none;
+}
+
+.hide {
+    display: none !important;
+}
+.show {
+    display: flex;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.flex-row {
+    display:flex;
+    flex-direction: row;
+}
+.flex-column {
+    display:flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.gap20 {
+    display: flex;
+    gap: 20px;
+}
+
+.gap32 {
+    display: flex;
+    gap: 32px;
+}
+
+.togray {
+    filter:grayscale(1);
+}
+
+.rot180 {
+    rotate: 180deg;
+}
+
+.mt16 {
+    margin-top: 16px;
+}
+
+.pt16 {
+    padding-top: 16px;
+}
+
+.pt2cm {
+    padding-top: 2cm;
+}
+
+.height32 {
+    height: 32px !important; 
+}
+
+.height16 {
+    height: 16px !important; 
+}
+.space {
+    justify-content: space-between;
+}
+
+.half {
+    width: 50%;
+}
+
+.noshadow {
+    box-shadow: unset;
+}
+
+.cover {
+    object-fit: cover;
+}
+
+.x:invalid {
+    border: 1px solid red;
+}
+
+.x:valid {
+    border: none;
+}
+
+body,textarea,input,::placeholder {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    color: rgba(0,0,0,0.7);
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.input, .button, button {
+    font-weight: normal;
+
+}
+
+.circle-image {
+    border-radius: 50%;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    aspect-ratio: 1 / 1;
+
+    object-fit: cover;
+    margin:0;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    width: 32px;
+    height: 32px;
+    aspect-ratio: 1 / 1;
+
+    object-fit: contain;
+    margin:0;
+}
+
+
+

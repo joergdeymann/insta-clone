@@ -1,0 +1,56 @@
+header  {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+
+    background-color:rgba(0,0,0,0.01);
+    color: rgba(0,0,0,0.8);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding: 16px 80px;
+}
+
+.header-content {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    width: 100%; 
+    max-width: 1024px;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 32px;
+}
+
+header input {
+    background-color: rgba(0,0,0,0.03);
+    border: 1px solid rgba(0,0,0,0.1);
+    padding: 8px;
+    width: 300px;
+}
+header input::placeholder {
+    color: rgba(0,0,0,0.5);
+    text-align: center;
+}
+header .logoarea {
+    font-size: 2rem;
+}
+
+@font-face {
+    font-family: "Pacifico";
+    src:url('../font/Pacifico-Regular.ttf') format("truetype");
+}
+
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+

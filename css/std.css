@@ -1,0 +1,195 @@
+/* 
+    Standart use of TAGS
+*/
+body {
+    margin:0
+    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Pointer für Buttons / Links */
+button,a {
+    cursor: pointer;
+}
+
+/* Focus on input */ 
+*:focus {
+    outline: none;
+}
+
+.hide {
+    display: none !important;
+}
+.show {
+    display: flex;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.flex-row {
+    display:flex;
+    flex-direction: row;
+}
+.flex-column {
+    display:flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-center-vertical {
+    display: flex;
+    align-items: center;
+}
+
+.nogap {
+    display: flex;
+    gap: 0px;
+
+}
+
+.gap16 {
+    display: flex;
+    gap: 16px;
+}
+
+.gap20 {
+    display: flex;
+    gap: 20px;
+}
+
+.gap32 {
+    display: flex;
+    gap: 32px;
+}
+
+.togray {
+    filter:grayscale(1);
+}
+
+.rot180 {
+    rotate: 180deg;
+}
+
+.mt16 {
+    margin-top: 16px;
+}
+
+.pt16 {
+    padding-top: 16px;
+}
+
+.pt2cm {
+    padding-top: 2cm;
+}
+
+.height64 {
+    height: 64px !important; 
+}
+
+.height48 {
+    height: 48px !important; 
+}
+
+.height32 {
+    height: 32px !important; 
+}
+
+.height16 {
+    height: 16px !important; 
+}
+.space {
+    display: flex;
+    justify-content: space-between;
+}
+
+.half {
+    width: 50%;
+}
+
+.noshadow {
+    box-shadow: unset;
+}
+
+.cover {
+    object-fit: cover;
+}
+
+.x:invalid {
+    border: 1px solid red;
+}
+
+.x:valid {
+    border: none;
+}
+
+/*
+    Insert here your standart font Favorite
+*/
+body,textarea,input,::placeholder {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    color: rgba(0,0,0,0.7);
+    font-weight: normal;
+    font-size: 14px;
+}
+/* Do NOT USE Standart Buttons */
+.input, .button, button {
+    font-weight: normal;
+
+}
+
+/*
+    round Image
+*/
+.circle-image {
+    border-radius: 50%;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    aspect-ratio: 1 / 1;
+
+    object-fit: cover;
+    margin:0;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    width: 32px;
+    height: 32px;
+    aspect-ratio: 1 / 1;
+
+    object-fit: contain;
+    margin:0;
+}
+
+/*
+    Remove Border in Inputr Fields
+*/
+.no-outline {
+    outline: none;
+}
+.no-outline:focus {
+    outline: none;
+}

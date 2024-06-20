@@ -1,0 +1,41 @@
+.section-right {
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+    color: rgba(0,0,0,0.6);
+    gap: 8px;
+}
+
+.section-right-row {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 64px;
+}
+
+.section-right .userarea {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    gap: 16px;
+}
+
+.section-right .userarea div {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.section-right .linkarea {
+    margin-left: 64px;
+    white-space: nowrap;
+}
+.section-right a {
+    color: rgba(42, 168, 226,0.8);
+    font-weight: 700;
+}
+
+.section-right a:hover {
+    color: rgba(42, 168, 226,0.5);
+}
